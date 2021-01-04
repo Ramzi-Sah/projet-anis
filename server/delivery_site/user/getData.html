@@ -1,0 +1,22 @@
+<form method="post" action="/API/user/getData.php">
+   <label>UID:</label>
+   <input type="text" name="user_uid" placeholder="your uid"></input>
+   <br><br>
+
+   <label>password:</label>
+   <input type="text" name="user_password" placeholder="your password"></input>
+   <br><br>
+
+   <label>data:</label>
+   <select name="user_data">
+        <option value="name">user name</option>
+        <option value="email">user email</option>
+        <option value="phone">user phone</option>
+        <option value="verifyed">user verified</option>
+        <option value="all">all</option>
+  </select>
+   <br><br>
+
+   <input id="send" type="submit">
+
+</form>

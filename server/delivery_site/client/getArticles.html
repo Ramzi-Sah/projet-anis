@@ -1,0 +1,23 @@
+<form method="post" action="/API/articles/getData.php">
+   <label>UID:</label>
+   <input type="text" name="user_uid" placeholder="your uid"></input>
+   <br><br>
+
+   <label>password:</label>
+   <input type="text" name="user_password" placeholder="your password"></input>
+   <br><br>
+
+    <label>data:</label>
+    <select name="user_data">
+        <option value="get_articles_uid_list">get article list</option>
+        <option value="get_article_data">get article data</option>
+    </select>
+    <br><br>
+
+    <label>data:</label>
+    <input type="text" name="user_data_input" placeholder="your data"></input>
+    <br><br>
+
+   <input id="send" type="submit">
+
+</form>

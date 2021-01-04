@@ -1,0 +1,36 @@
+<form method="post" action="/API/client/commandes.php">
+   <label>UID:</label>
+   <input type="text" name="user_uid" placeholder="your uid"></input>
+   <br><br>
+
+   <label>password:</label>
+   <input type="text" name="user_password" placeholder="your password"></input>
+   <br><br>
+
+    <label>data:</label>
+    <select name="user_data">
+        <option value="get_client_commandes">recuperer mes commandes</option>
+        <option value="add_commande">cree une commande</option>
+        <option value="set_livreur">ajouter un livreur</option>
+        <option value="set_articles">ajouter des articles</option>
+        <option value="get_commande_data">commande data</option>
+        <option value="cancel_commande">cancel commande</option>
+    </select>
+    <br><br>
+
+    <label>data:</label>
+    <input type="text" name="user_data_input" placeholder="articles"></input>
+    <br><br>
+
+    <label>data 2:</label>
+    <input type="text" name="user_data_2_input" placeholder="quentities"></input>
+    <br><br>
+
+    <label>commande uid:</label>
+    <input type="text" name="commande_uid" placeholder="commande uid"></input>
+    <br><br>
+
+
+   <input id="send" type="submit">
+
+</form>

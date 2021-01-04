@@ -1,0 +1,27 @@
+<form method="post" action="/API/user/addInfo.php">
+   <label>UID:</label>
+   <input type="text" name="user_uid" placeholder="your uid"></input>
+   <br><br>
+
+   <label>password:</label>
+   <input type="text" name="user_password" placeholder="your password"></input>
+   <br><br>
+
+   <label>data:</label>
+   <select name="user_data">
+        <option value="add_email">user email</option>
+        <option value="email_validation_request">email validation request</option>
+        <option value="validate_email">user email validate</option>
+        <option value="add_phone_number">user phone number</option>
+        <option value="validate_phone_number">phone number validate</option>
+        <option value="phone_number_validation_request">phone number validation request</option>
+  </select>
+   <br><br>
+
+  <label>data:</label>
+  <input type="text" name="user_data_input" placeholder="your data"></input>
+  <br><br>
+
+   <input id="send" type="submit">
+
+</form>

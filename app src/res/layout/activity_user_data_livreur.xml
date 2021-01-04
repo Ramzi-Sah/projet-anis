@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:theme="@style/AppTheme"
+    tools:context=".UserDataActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:text="pour obtenir une id livreur, vous devez dabord faire une demmande."
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Livreur:" />
+
+    <EditText
+        android:id="@+id/userDataLivreurUID_txtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/userDataLivreurVerify_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verifier"
+        android:background="@color/color_btn_submit"
+        android:textColor="#fff" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/userDataLivreurCancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anuler"
+        android:background="@color/color_btn_cancel"
+        android:textColor="#fff" />
+
+
+</LinearLayout>

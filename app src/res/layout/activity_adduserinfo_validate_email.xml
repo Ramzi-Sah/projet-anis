@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    tools:context=".AddUserInfoActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validation E-mail"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="un pin vous a ete envoyer par mail, veuillez verifier vos spams, si vous ne le retrouver pas contactez nous."
+        android:textAlignment="center" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/adduser_validate_email_pin_1_txt"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:hint="*"
+            android:nextFocusForward="@+id/adduser_validate_email_pin_2_txt"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/adduser_validate_email_pin_2_txt"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:hint="*"
+            android:nextFocusForward="@+id/adduser_validate_email_pin_3_txt"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/adduser_validate_email_pin_3_txt"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:hint="*"
+            android:nextFocusForward="@+id/adduser_validate_email_pin_4_txt"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/adduser_validate_email_pin_4_txt"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:maxLength="1"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:hint="*"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/adduserinfo_validate_email_skip_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="plus tard" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/adduserinfo_validate_email_resend_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reenvoyer l'email" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/adduser_validate_email_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_btn_submit"
+        android:text="Valider"
+        android:textColor="#fff" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/adduser_validate_email_status_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center" />
+
+</LinearLayout>
